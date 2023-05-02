@@ -2,7 +2,7 @@ import base64
 import requests
 
 client_id = "6486c8e0c59741eeabf1c681451a0f55"
-client_secret = "9a5a7f7cdf014ca09f65120c0a8f3043"
+client_secret = "CHAVE DE ACESSO AQUI"
 
 # Codifica a string "client_id:client_secret" no formato base64
 base64_auth = base64.b64encode(f"{client_id}:{client_secret}".encode("ascii")).decode("ascii")
